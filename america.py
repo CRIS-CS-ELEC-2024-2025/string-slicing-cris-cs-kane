@@ -22,7 +22,7 @@ print("The string of country is: "+ str(len(country)))
 
 # 5. slice the string "america" from country, upper case the 'a',
 #    and store it in a variable named `short_name` with a value "America"
-short_name = country[-7:-1].capitalize()
+short_name = country[-7:28].capitalize()
 
 # 6. concantentate a string value with `short_name` to
 #    produce the name of the continent where the country resides
